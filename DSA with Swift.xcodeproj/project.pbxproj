@@ -14,6 +14,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B1BBB8728C6A0F900A3AE43 /* TwoSumsAlgo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TwoSumsAlgo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5B1BBB8828C6A11400A3AE43 /* MergedSortAlgo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MergedSortAlgo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5B1BBB8928C6A12700A3AE43 /* MergedSortAlgo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MergedSortAlgo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5B1E960028C69FB500BDD7CA /* DSA with Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DSA with Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B1E960328C69FB500BDD7CA /* DSA_with_SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSA_with_SwiftApp.swift; sourceTree = "<group>"; };
 		5B1E960528C69FB500BDD7CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +54,9 @@
 		5B1E960228C69FB500BDD7CA /* DSA with Swift */ = {
 			isa = PBXGroup;
 			children = (
+				5B1BBB8828C6A11400A3AE43 /* MergedSortAlgo.playground */,
+				5B1BBB8928C6A12700A3AE43 /* MergedSortAlgo.playground */,
+				5B1BBB8728C6A0F900A3AE43 /* TwoSumsAlgo.playground */,
 				5B1E960328C69FB500BDD7CA /* DSA_with_SwiftApp.swift */,
 				5B1E960528C69FB500BDD7CA /* ContentView.swift */,
 				5B1E960728C69FB700BDD7CA /* Assets.xcassets */,
