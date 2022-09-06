@@ -54,3 +54,5 @@ public func findDayoftheWeek(_ S : inout String, _ K : Int) -> String {
 }
 var test = "Wed"
 findDayoftheWeek(&test, 24)
+
+
