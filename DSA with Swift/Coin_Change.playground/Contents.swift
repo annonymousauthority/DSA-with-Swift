@@ -1,9 +1,9 @@
 import UIKit
 
+// Coin change for minimum number of coins needed.
 func coinChange(_ coins: [Int], _ amount: Int) -> Int {
     var checker = Array<Int>(repeating: amount + 1, count: amount + 1)
     checker[0] = 0
-    print(amount + 1)
 
     for checked in 1..<amount + 1{
         for coin in coins{
@@ -18,4 +18,4 @@ func coinChange(_ coins: [Int], _ amount: Int) -> Int {
         return -1
     }
 }
-coinChange([1], 1)
+coinChange([2], 3)
