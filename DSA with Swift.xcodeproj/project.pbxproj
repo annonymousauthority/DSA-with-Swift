@@ -25,6 +25,7 @@
 		5B1E960728C69FB700BDD7CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B1E960A28C69FB700BDD7CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5B54996D28C77221007469B5 /* Coin_Change.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Coin_Change.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5BFB6E6928C9F36F0084868C /* alphabetDistance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = alphabetDistance.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		5B1E960228C69FB500BDD7CA /* DSA with Swift */ = {
 			isa = PBXGroup;
 			children = (
+				5BFB6E6928C9F36F0084868C /* alphabetDistance.playground */,
 				5B54996D28C77221007469B5 /* Coin_Change.playground */,
 				5B055DEA28C7445200D1C120 /* Palindrome_Check.playground */,
 				5B055DEB28C7447B00D1C120 /* Palindrome_Check.playground */,
