@@ -36,3 +36,29 @@ func generate(_ numRows: Int) -> [[Int]] {
 }
 
 generate(5)
+
+func getRow(_ rowIndex: Int) -> [Int] {
+    var resultArray = [Array<Int>()]
+    print(resultArray)
+    var growingArray = Array<Int>()
+    var number = 0
+    while number<rowIndex + 1 {
+        growingArray.insert(1, at: number)
+        let oldArray = growingArray
+        if growingArray.count <= 2 {
+            growingArray[number] = 1
+            resultArray.insert(growingArray, at: number)
+        }else{
+            for array_index in 0..<growingArray.count{
+                if array_index - 1 >= 0 && array_index < growingArray.count - 1 {
+                    growingArray[array_index] = oldArray[array_index - 1] + oldArray[array_index]
+                }
+            }
+
+            resultArray.insert(growingArray, at: number)
+        }
+        number += 1
+    }
+    return resultArray[rowIndex]
+}
+getRow(3)
