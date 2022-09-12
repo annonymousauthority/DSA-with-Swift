@@ -54,7 +54,6 @@ func getRow(_ rowIndex: Int) -> [Int] {
                     growingArray[array_index] = oldArray[array_index - 1] + oldArray[array_index]
                 }
             }
-
             resultArray.insert(growingArray, at: number)
         }
         number += 1

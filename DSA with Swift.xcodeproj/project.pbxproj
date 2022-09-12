@@ -25,8 +25,11 @@
 		5B1E960728C69FB700BDD7CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B1E960A28C69FB700BDD7CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5B54996D28C77221007469B5 /* Coin_Change.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Coin_Change.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5B834F5828CB8B7200159075 /* TestPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TestPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5BDA205A28CB2D4500D94C18 /* WeakCharacters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = WeakCharacters.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5BFB6E6928C9F36F0084868C /* alphabetDistance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = alphabetDistance.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5BFB6E6A28C9F4380084868C /* Pascal'sTriangle.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Pascal'sTriangle.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5BFB6E6B28CA41C80084868C /* LinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,9 @@
 		5B1E960228C69FB500BDD7CA /* DSA with Swift */ = {
 			isa = PBXGroup;
 			children = (
+				5B834F5828CB8B7200159075 /* TestPlayground.playground */,
+				5BDA205A28CB2D4500D94C18 /* WeakCharacters.playground */,
+				5BFB6E6B28CA41C80084868C /* LinkedList.playground */,
 				5BFB6E6A28C9F4380084868C /* Pascal'sTriangle.playground */,
 				5BFB6E6928C9F36F0084868C /* alphabetDistance.playground */,
 				5B54996D28C77221007469B5 /* Coin_Change.playground */,
